@@ -43,3 +43,9 @@
 .icon-skype:before {
   content: "\f17e";
 }
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-circle-thin:before {
+  content: "\f1db";
+}

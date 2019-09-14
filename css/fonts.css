@@ -18,4 +18,82 @@
 		url("../fonts/HelveticaNeueCyr-Light.woff") format("woff");
 		font-weight: 300;
 }
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/vector/icomoon.eot?yke8er');
+  src:  url('../fonts/vector/icomoon.eot?yke8er#iefix') format('embedded-opentype'),
+    url('../fonts/vector/icomoon.ttf?yke8er') format('truetype'),
+    url('../fonts/vector/icomoon.woff?yke8er') format('woff'),
+    url('../fonts/vector/icomoon.svg?yke8er#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map-marker:before {
+  content: "\f041";
+}
+.icon-chevron-left:before {
+  content: "\f053";
+}
+.icon-chevron-right:before {
+  content: "\f054";
+}
+.icon-phone:before {
+  content: "\f095";
+}
+.icon-envelope:before {
+  content: "\f0e0";
+}
+.icon-skype:before {
+  content: "\f17e";
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/dots/icomoon.eot?28yhis');
+  src:  url('../fonts/dots/icomoon.eot?28yhis#iefix') format('embedded-opentype'),
+    url('../fonts/dots/icomoon.ttf?28yhis') format('truetype'),
+    url('../fonts/dots/icomoon.woff?28yhis') format('woff'),
+    url('../fonts/dots/icomoon.svg?28yhis#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-circle:before {
+  content: "\f111";
+}
+.icon-circle-thin:before {
+  content: "\f1db";
+}
 
