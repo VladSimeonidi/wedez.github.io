@@ -33,5 +33,7 @@ $('.members').slick({
 });
 $('.review').slick({
 	arrows: true,
+	dots: true,
+	infinite: false,
 });
 });

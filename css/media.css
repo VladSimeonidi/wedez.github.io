@@ -1,0 +1,24 @@
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
+   .header__icon {
+   	left: 6%;
+   }
+   .subscribe__iframe {
+   	height: 310px;
+   }
+   .subscribe__email input {
+   	height: 45px;
+   	line-height: 41px;
+   }
+   .subscribe__button {
+   	position: relative;
+   }
+   .subscribe__button button {
+   	padding: 10px 30px 30px;
+   	top: 10px;
+   	left: 0px;
+   	width: 200px;
+   }
+   .footer__phone_nmb {
+   	width: 37%;
+   }
+}
