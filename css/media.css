@@ -1,24 +1,129 @@
-@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {  
-   .header__icon {
-   	left: 6%;
-   }
-   .subscribe__iframe {
-   	height: 310px;
-   }
-   .subscribe__email input {
-   	height: 45px;
-   	line-height: 41px;
-   }
-   .subscribe__button {
-   	position: relative;
-   }
-   .subscribe__button button {
-   	padding: 10px 30px 30px;
-   	top: 10px;
-   	left: 0px;
-   	width: 200px;
-   }
-   .footer__phone_nmb {
-   	width: 37%;
-   }
+@media (max-width: 1180px) {
+	.header__contacts {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.title__wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.title__text_1 {
+    	font-size: 40px;
+    	line-height: 50px
+    }
+    .slick-prev {
+    	left: 40%;
+	}
+    .slick-next {
+    	right: 41%;
+    }
+	.members {
+		max-width: 900px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-left: unset;
+	}
+	.advantages__block {
+    	width: 600px;
+    	margin-left: auto;
+    	margin-right: auto;
+	}
+	.advantages__item {
+		width: 50%;
+	}
+	.subscribe__wrapper {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.footer_links {
+		display: block;
+	}
+	.footer__contacts {
+		display: block;
+		width: 32%;
+	}
+	.footer__networks {
+		width: 26.5%;
+	}
+}
+@media (max-width: 1075px) {
+.header__item_1, .header__item_5 {
+    font-size: 14px;
+}
+.header__item_6, .header__item_7 {
+    font-size: 14px;
+}
+.header__item_6::before, .header__item_7::before {
+    font-size: 16px;
+}
+.footer__networks {
+	width: 30%;
+}
+.subscribe__header {
+    font-size: 25px;
+}
+.header__search {
+    width: 85%;
+}
+.header__button {
+    font-size: 15px;
+    padding: 5px 20px;
+}
+}
+@media (max-width: 850px) {
+	.header__contacts {
+		display: none;
+	}
+	.header__contacts__2 {
+		display: block;
+		padding-top: 20px;
+	}
+	.header__item_1, .header__item_5 {
+		width: 100%;
+		font-size: 20px;
+	}
+	.header__icon {
+	    top: 10px;
+	}
+	.header__contacts_flex {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-around;
+	}
+	.header__item_2, .header__item_3 {
+		width: 25%;
+	}
+	.header__call {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 10px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.header__item_8 {
+		width: 30%;
+	}
+	.header__item_4 {
+    	width: 30%;
+	}
+	.header__search {
+		position: initial;
+	}
+	.header__button {
+		position: initial;
+	}
+	.navigation {
+		background-color: rgba(0,0,0,0.5);
+	}
+	.nav__link {
+		font-weight: bold;
+	}
+	.title__text_1 {
+    	font-size: 30px;
+   	 	line-height: 40px;
+	}
 }
