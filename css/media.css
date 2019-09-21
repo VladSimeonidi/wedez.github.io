@@ -363,6 +363,7 @@
 }
 .shadow {
 	padding-top: 40px;
+    width: 285px;
 }
 .preview__img {
     left: 25%;
@@ -413,7 +414,7 @@
 	padding-left: 0;
 }
 }
-@media (max-width: 380px) {
+@media (max-width: 390px) {
 .header__icon {
     top: 22px;
     width: 20%;
@@ -441,6 +442,10 @@
     padding: 0 30px;
     padding-top: 10px;
     padding-bottom: 18px;
+    width: 100%;
+    margin-top: 100px;
+}
+.header__contacts_flex div {
     width: 100%;
 }
 }

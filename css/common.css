@@ -1,3 +1,7 @@
+.is-active {
+    border-bottom: 2px solid #e46c10;
+    color: #e46c10;
+}
 html {
 	box-sizing: border-box;
 }
@@ -37,6 +41,7 @@ body {
 	position: relative;
 }
 .header__item_1 div {
+	border: 0;
 	border-bottom: 2px solid white;
 	border-image: linear-gradient(90deg, white, transparent);
 	border-image-slice: 1;
@@ -139,7 +144,7 @@ body {
 	position: relative;
 }
 .header__button {
-	background-color: #793609;
+	background-color: rgba(228,108,16,0.5);
 	border-color: #e46c10;
 	border-radius: 5px;
 	color: white;
@@ -150,6 +155,8 @@ body {
 	line-height: 18px;
 	letter-spacing: 0.3px;
 	padding: 5px 35px;
+	padding-top: 5px;
+	padding-bottom: 7px;
 	outline: none;
 	position: absolute;
 	bottom: 7px;
@@ -232,6 +239,7 @@ body {
 	line-height: 70px;
 	font-weight: 300;
 	text-align: center;
+	margin: 0;
 }
 .members {
 	margin-top: 22px;
@@ -319,6 +327,7 @@ body {
 	font-weight: 300;
 	line-height: 70px;
 	text-align: center;
+	margin: 0;
 }
 .advantages__block {
 	display: flex;
@@ -471,7 +480,7 @@ body {
 	width: 100%;
 }
 
-.subscribe__email input::-moz-placeholder {
+.subscribe__email input::placeholder {
 	color: black;
 }
 .subscribe__email input::-webkit-input-placeholder {
@@ -535,6 +544,7 @@ body {
 	font-size: 12px;
 	padding-left: 21px;
 	position: relative;
+	font-style: normal;
 }
 .footer__text_1::before {
 	content: "\f041";
@@ -634,4 +644,170 @@ body {
 }
 .header__contacts__2 {
 	display: none;
+}
+.animated-modal {
+  max-width: 550px;
+  border-radius: 4px;
+  overflow: hidden;
+  
+  transform: translateY(-50px);
+  transition: all .7s;
+}
+
+.animated-modal h2,
+.animated-modal p {
+  transform: translateY(-50px);
+  opacity: 0;
+  
+  transition-property: transform, opacity;
+  transition-duration: .4s;
+}
+
+/* Final state */
+.fancybox-slide--current .animated-modal,
+.fancybox-slide--current .animated-modal h2,
+.fancybox-slide--current .animated-modal p {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* Reveal content with different delays */
+.fancybox-slide--current .animated-modal h2 {
+  transition-delay: .1s;
+}
+
+.fancybox-slide--current .animated-modal p {
+  transition-delay: .3s;
+}
+.phone_modal {
+	border-radius: 10px;
+	font-family: 'HelveticaNeueCyr', Arial, sans-serif;
+}
+.phone_modal_h2 {
+	text-align: center;
+	font-weight: 300;
+}
+.phone__name,.phone_input {
+	border: 0;
+	border-bottom: 1px solid grey;
+	font-size: 18px;
+	line-height: 30px;
+	outline: none;
+	width: 100%;
+}
+.phone_time_text {
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.phone_inputs {
+	margin-bottom: 10px;
+}
+.input_phone_radio {
+	display: none;
+}
+.input_phone_radio_label {
+	display: inline-block;
+	line-height: 35px;
+	padding-left: 40px;
+	position: relative;
+	cursor: pointer;
+	user-select: none;
+}
+.input_phone_radio_label:hover {
+	color: #d35400;
+}
+.input_phone_radio_label::before {
+	content: "";
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	border: 1px solid black;
+	border-radius: 50%;
+	position: absolute;
+	left: 10px;
+	top: 8px;
+}
+.input_phone_radio:checked + .input_phone_radio_label::before {
+	content: "";
+	background-color: #2ecc71;
+} 
+.phone_div_button {
+	margin-top: 10px;
+	text-align: center;
+}
+.phone_button {
+	background-color: grey;
+	border: 0;
+	border-radius: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	padding: 15px 30px;
+	outline: none;
+	text-transform: uppercase;
+}
+.phone_button:active {
+	transform: scale(0.9);
+}
+.phone_button:hover {
+	opacity: 0.7;
+}
+.animated-modal__width {
+	width: 50%;
+	min-width: 250px;
+}
+.app_h2 {
+	font-weight: 300;
+	text-align: center;
+	text-transform: uppercase;
+}
+.app_h4 {
+	text-align: center;	
+}
+.div__app_input__text {
+	font-weight: 300px;
+	margin-bottom: 10px;
+}
+.app_input {
+	border: 0;
+	border-radius: 5px;
+	background-color: lightgrey;
+	font-size: 18px;
+	line-height: 40px;
+	outline: none;
+	padding-left: 10px;
+	width: 100%;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.div__app__button {
+	margin-top: 15px;
+}
+.button_app {
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	border: 0;
+	display: block;
+	font-size: 14px;
+	font-weight: 300;
+	height: 40px;
+	text-transform: uppercase;
+	width: 100%;
+}
+.app_policy_text {
+	font-size: 11px;
+	color: grey;
+	margin-top: 10px;
+	width: 100%;
 }

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+	<title>Strategic Coaching Center</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta http-equiv="x-ua-compatible" content="IE=edge">
 	<meta name="msapplication-TileColor" content="#da532c">
 	<meta name="msapplication-config" content="images/favicon/browserconfig.xml">
 	<meta name="theme-color" content="#ffffff">
-	<title>Strategic Coaching Center</title>
 	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
 	<link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
@@ -17,6 +17,7 @@
 	<link rel="stylesheet" type="text/css" href="css/slick-theme.css">
 	<link rel="stylesheet" type="text/css" href="css/slick.css">
 	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
 	<link rel="stylesheet" href="css/common.css">
 	<link rel="stylesheet" href="css/media__ie.css">
 	<link rel="stylesheet" href="css/media.css">
@@ -45,7 +46,7 @@
 <div class="header__item_5">Strategic Coaching Center</div>
 <div class="header__item_6"><a href="tel:74951289348">+7 (495) 128 93 48</a></div>
 <div class="header__item_7"><a href="tel:78126027638">+7 (812) 602 76 38</a></div>
-<div class="header__item_8"><button class="header__button">Обратный звонок</button></div>
+<div class="header__item_8"><button data-fancybox data-src="#modal" class="header__button">Обратный звонок</button></div>
 </div>
 <div class="header__contacts__2">
 <div class="header__item_1"><div>Центр стратегического коучинга и психотерапии Дамиана Синайского</div></div>
@@ -53,16 +54,16 @@
 <div class="header__item_5">Strategic Coaching Center</div>
 <div class="header__contacts_flex">
 	<div class="header__item_2"><a target="_blank" class="header__adress" href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D1%80%D0%B5%D1%87%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D0%BA%D0%B0,+17%2F9,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+119034/@55.7421062,37.5929615,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bae8aef99e3:0x98bcb603731f5adb!8m2!3d55.7421062!4d37.5951502">Офис в Москве</a><br>
-		<span class="header__text"><a target="_blank" class="header__adress" href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D1%80%D0%B5%D1%87%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D0%BA%D0%B0,+17%2F9,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+119034/@55.7421062,37.5929615,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bae8aef99e3:0x98bcb603731f5adb!8m2!3d55.7421062!4d37.5951502">ул. Пречистенка, д.17/9, 3 этаж</a></span>
+	<span class="header__text"><a target="_blank" class="header__adress" href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9F%D1%80%D0%B5%D1%87%D0%B8%D1%81%D1%82%D0%B5%D0%BD%D0%BA%D0%B0,+17%2F9,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F,+119034/@55.7421062,37.5929615,17z/data=!3m1!4b1!4m5!3m4!1s0x46b54bae8aef99e3:0x98bcb603731f5adb!8m2!3d55.7421062!4d37.5951502">ул. Пречистенка, д.17/9, 3 этаж</a></span>
 	</div>
 	<div class="header__item_3"><a target="_blank" class="header__adress" href="https://www.google.com/maps/place/Воронежская+ул.,+5,+Санкт-Петербург,+Россия,+191119/@59.917986,30.3464533,17z/data=!3m1!4b1!4m5!3m4!1s0x469631b2ddc973cf:0xf329b58a2c727e3!8m2!3d59.917986!4d30.348642">Офис в Санкт-Петербурге</a><br>
-		<span class="header__text"><a target="_blank" class="header__adress" href="https://www.google.com/maps/place/Воронежская+ул.,+5,+Санкт-Петербург,+Россия,+191119/@59.917986,30.3464533,17z/data=!3m1!4b1!4m5!3m4!1s0x469631b2ddc973cf:0xf329b58a2c727e3!8m2!3d59.917986!4d30.348642">ул. Воронежская, 5</a></span>
+	<span class="header__text"><a target="_blank" class="header__adress" href="https://www.google.com/maps/place/Воронежская+ул.,+5,+Санкт-Петербург,+Россия,+191119/@59.917986,30.3464533,17z/data=!3m1!4b1!4m5!3m4!1s0x469631b2ddc973cf:0xf329b58a2c727e3!8m2!3d59.917986!4d30.348642">ул. Воронежская, 5</a></span>
 	</div>
 	<div class="header__item_6"><a href="tel:74951289348">+7 (495) 128 93 48</a></div>
 	<div class="header__item_7"><a href="tel:78126027638">+7 (812) 602 76 38</a></div>
 </div>
 <div class="header__call">
-	<div class="header__item_8"><button class="header__button">Обратный звонок</button></div>
+	<div class="header__item_8"><button data-fancybox data-src="#modal" class="header__button">Обратный звонок</button></div>
 	<div class="header__item_4">
 		<form action="#" name="input_search" id="2">
 		<input class="header__search" type="search" placeholder="Поиск">
@@ -74,28 +75,29 @@
 	</div>
 </div>
 </div>
-<div class="navigation">
+	<nav class="navigation">
 <div class="navigation_item1"><a href="#" class="nav__link">Направления</a></div>
 <div class="navigation_item2"><a href="#" class="nav__link">О нас</a></div>
 <div class="navigation_item3"><a href="#" class="nav__link">Медиа-центр</a></div>
 <div class="navigation_item4"><a href="#" class="nav__link">Истории успеха</a></div>
 <div class="navigation_item5"><a href="#" class="nav__link">Живая сессия</a></div>
 <div class="navigation_item6"><a href="#" class="nav__link">Контакты</a></div>
-</div>
-
+	</nav>
 <div class="title__wrapper">
 	<div class="title">
 		<div class="title__text_1">“Через познание себя к познанию мира.<br> Вектор стратегии — вектор успеха.”</div>
 		<div class="title__text_2">Дамиан Синайский</div>
 	</div>
-	<div class="send__application"><form action="#"><button class="application__btn">Отправить заявку</button></form>
+	<div class="send__application"><button data-fancybox data-animation-duration="700" data-src="#animatedModal" class="application__btn">Отправить заявку</button>
 	</div>
 </div>
 </div>
 </header>
+<main>
+<article>
 <section class="team">
 <div class="diamond"><img src="images/diamond.png" alt=""></div>
-<div class="team__header">Наша команда</div>
+<h2 class="team__header">Наша команда</h2>
 <div class="members">
 <div class="member1">
 	<div><img src="images/member_1.png" alt=""></div>
@@ -144,7 +146,7 @@
 <section class="advantages">
 <div class="advantage_content">
 <div class="diamond_dark"><img src="images/diamond_dark.png" alt=""></div>
-<div class="advantages__header">Преимущества центра</div>
+<h2 class="advantages__header">Преимущества центра</h2>
 <div class="advantages__block">
 	<div class="advantages__item">
 		<div class="advant__text_1">1.</div>
@@ -167,7 +169,7 @@
 </section>
 <section class="review__section">
 <div class="diamond"><img src="images/diamond.png" alt=""></div>
-<div class="team__header">Отзывы о нас</div>
+<h2 class="team__header">Отзывы о нас</h2>
 <div class="review">
 	<div class="review__item"><img class="preview__img" src="images/review.png" alt="">
 	<div class="shadow">
@@ -189,6 +191,8 @@
 	<p class="review__text">Дамиан Синайский — автор уникального метода «Трансгредиентный коучинг». Автор книг и публикаций в зарубежной и российской прессе. Имеет успешный опыт в бизнесе и является основателем Центра Стратегического Коучинга и психотерапии «Ценности Инноваций».</p></div></div>
 </div>
 </section>
+</article>
+</main>
 <footer class="subscribe">
 <div class="subscribe__wrapper">
 <div class="subscribe__content">
@@ -212,12 +216,12 @@
 <div class="footer_link"><a href="#">Медиа-центр</a></div>
 <div class="footer_link"><a href="#">Контакты</a></div></div>
 <div class="footer__contacts">
-	<div class="footer__text_1">Офис в Москве<br>
+	<address class="footer__text_1">Офис в Москве<br>
 		<span class="footer__text_2">ул. Пречистенка, д.17/9, 3 этаж</span>
-	</div>
-	<div class="footer__text_1">Офис в Санкт-Петербурге<br>
+	</address>
+	<address class="footer__text_1">Офис в Санкт-Петербурге<br>
 		<span class="footer__text_2">ул. Воронежская, 5</span>
-	</div>
+	</address>
 	<div class="header__item_6 footer__phone_nmb"><a href="tel:74951289348">+7 (495) 128 93 48</a></div>
 	<div class="header__item_7 footer__phone_nmb"><a href="tel:78126027638">+7 (812) 602 76 38</a></div>
 		</div>
@@ -242,9 +246,47 @@
 </div>
 	<div class="copyright"><span>Synaysky-2019</span></div>
 </footer>
+<div style="display: none;" id="modal" class="phone_modal">
+<h2 class="phone_modal_h2">Заказать обратный звонок</h2>
+<form action="url">
+<div class="phone_inputs">
+	<div class="div_phone_input_name">
+		<input type="text" class="phone__name" placeholder="Ваше имя"></div>
+	<div class="div_phone_input_tel">
+		<input type="number" class="phone_input" placeholder="Телефон"></div>
+</div>
+<div class="phone_time_text">Выберите удобное для Вас время</div>
+<div class="block__phone_radio">
+<div class="div_phone_radio">
+<div>
+	<input type="radio" id="5min" class="input_phone_radio" name="time" value="в течение 5 мин."><label class="input_phone_radio_label" for="5min">в течение 5 мин.</label>
+</div>
+<div>
+	<input type="radio" id="9to12" class="input_phone_radio" name="time" value="с 9.00 - 12.00"><label class="input_phone_radio_label" for="9to12">с 9.00 - 12.00</label>
+</div>
+<div>
+	<input type="radio" id="13to19" class="input_phone_radio" name="time" value="с 13.00 - 19.00"><label class="input_phone_radio_label" for="13to19">с 13.00 - 19.00</label>
+</div>
+</div>
+</div>
+	<div class="phone_div_button"><button type="submit" class="phone_button">Заказать</button></div>
+</form>
+</div>
+ <div style="display: none;" id="animatedModal" class="animated-modal animated-modal__width">
+          <h2 class="app_h2">оставить заявку</h2>
+          <h4 class="app_h4">Мы перезвоним Вам</h4>
+         <form action="url">
+         	 <div>
+         		<div class="div__app_input__text">Телефон</div>
+         			<div class="div__app_input"><input type="number" class="app_input"></div>
+         	</div>
+         	<div class="div__app__button"><button class="button_app">отправить</button></div>
+         </form>
+          <div class="app_policy_text">Отправляя заявку, вы соглашаетесь на обработку персональных данных согласно <a href="#">политике конфиденциальности</a>.</div>
+  </div>
 <script src="js/jquery-3.4.1.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.fancybox.min.js"></script>
 <script src="js/script.js"></script>
-
 </body>
 </html>

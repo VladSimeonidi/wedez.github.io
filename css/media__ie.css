@@ -24,4 +24,14 @@
    .subscribe__email input:-ms-input-placeholder {
     color: black !important;
 	}
+   .slick-prev, .slick-next {
+      width: 30px;
+      height: 40px;
+   }
+   .slick-prev {
+      left: -25px;
+   }
+   .slick-next {
+      right: -25px;
+   }
 }
